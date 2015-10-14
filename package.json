@@ -4,6 +4,10 @@
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-osseus": "^0.2.0",
-    "load-grunt-config": "^0.17.2"
+    "load-grunt-config": "^0.17.2",
+    "yaml-front-matter": "^3.2.3"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5"
   }
 }

@@ -1,0 +1,3 @@
+post_parser: markdown
+page_parser: ejs
+theme: basic

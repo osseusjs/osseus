@@ -3,9 +3,11 @@ default: []
 dev:
   description: 'Development environment'
   tasks:
+    - 'osseus_from_db'
     - 'osseus_to_db'
 
 deploy:
   description: 'Deployment'
   tasks:
+    - 'osseus_from_db'
     - 'osseus_to_db'
