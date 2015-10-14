@@ -1,9 +1,7 @@
 'use strict';
 
-yaml = require('js-yaml');
-fs   = require('fs');
-
-// Get document, or throw exception on error
+var yaml = require('js-yaml');
+var fs   = require('fs');
 
 module.exports = function(grunt) {
   try {

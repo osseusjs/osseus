@@ -5,9 +5,11 @@ dev:
   tasks:
     - 'osseus_from_db'
     - 'osseus_to_db'
+    - 'osseus_compile'
 
 deploy:
   description: 'Deployment'
   tasks:
     - 'osseus_from_db'
     - 'osseus_to_db'
+    - 'osseus_compile'
